@@ -1,0 +1,16 @@
+# مؤقت/محلي
+.cache/
+.arena/
+.local/
+uploads/
+shots/
+sources/*.mp4
+sources/*.mov
+sources/*.MOV
+sources/*.webm
+tools/probe*.py
+tools/shot2.py
+tools/shot3.py
+tools/shot4.py
+__pycache__/
+.DS_Store
