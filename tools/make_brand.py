@@ -30,7 +30,7 @@ for i,c in enumerate((0x23,0x1F,0x20)):
     ch = out[...,i]; ch[neutral] = c
 Image.fromarray(out.astype(np.uint8),'RGBA').save('assets/brand/logo-dark.png')
 
-# العلامة (الصليب) والوردمارك
+# العلامة (بلس) والوردمارك
 W,H = logo.size
 mark = logo.crop((0, int(H*0.28), int(W*0.30), int(H*0.86))).crop(logo.crop((0,0,int(W*0.30),H)).getbbox())
 mark.save('assets/brand/mark.png'); print('mark', mark.size)
